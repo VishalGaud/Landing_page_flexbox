@@ -7,12 +7,15 @@
 .main {
     background-color: #1F2937;
     color: white;
+    height: 500px;
 }
 
 #h_log {
     margin: 20px 5px;
     padding: 10px 14px;
+    font-size: 24px;
     font-weight: bold;
+    color: #f9faf8;
 }
 
 .nav {
@@ -29,4 +32,39 @@
 .nav_item {
     display: flex;
     justify-content: space-between;
+}
+
+.content_1 {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    width: 30%;
+}
+
+#h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+#sec_text {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.btn {
+    background-color: #3883f6;
+    color: white;
+    padding: 5px 23px;
+    border-radius: 15px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6a6d74;
+    width: 30%;
+    text-align: center;
 }
