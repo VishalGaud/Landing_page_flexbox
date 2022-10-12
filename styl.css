@@ -1,6 +1,8 @@
 * {
-    margin: 8px;
+    margin: 0px;
     font-size: large;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -11,7 +13,7 @@
 }
 
 #h_log {
-    margin: 20px 5px;
+    margin: 17px 275px;
     padding: 10px 14px;
     font-size: 24px;
     font-weight: bold;
@@ -32,6 +34,7 @@
 .nav_item {
     display: flex;
     justify-content: space-between;
+    margin: 22px;
 }
 
 .content_1 {
@@ -58,6 +61,7 @@
     color: white;
     padding: 5px 23px;
     border-radius: 15px;
+    margin: 10px 0px;
 }
 
 .right {
@@ -78,6 +82,7 @@
 
 .box_dir {
     display: flex;
+    margin: 30px;
 
 }
 
@@ -101,6 +106,7 @@
 
 .Thor {
     background-color: #caccd0;
+    margin: 60px 0px;
 }
 
 div pre {
@@ -120,8 +126,11 @@ div pre span {
     background-color: #3883f6;
     color: white;
     justify-content: center;
-    margin: 80px 145px;
+    align-items: center;
+    margin: 0px 120px 55px 120px;
     border-radius: 12px;
+    height: 120px;
+    gap: 15rem;
 
 
 }
@@ -132,4 +141,13 @@ div pre span {
     padding: 5px 23px;
     border-radius: 12px;
     border: 2px solid white;
+}
+
+footer {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
 }
