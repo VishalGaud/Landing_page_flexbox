@@ -98,3 +98,38 @@
 .h2 {
     font-size: 36px;
 }
+
+.Thor {
+    background-color: #caccd0;
+}
+
+div pre {
+    text-align: justify;
+    margin-left: 15%;
+    padding: 3rem;
+    font-size: 20px;
+    font-style: italic;
+}
+
+div pre span {
+    font-weight: bold;
+}
+
+.product_sub {
+    display: flex;
+    background-color: #3883f6;
+    color: white;
+    justify-content: center;
+    margin: 80px 145px;
+    border-radius: 12px;
+
+
+}
+
+.btn2 {
+    background-color: #3883f6;
+    color: white;
+    padding: 5px 23px;
+    border-radius: 12px;
+    border: 2px solid white;
+}
